@@ -1,0 +1,64 @@
+.intro h2{
+  margin:0;
+  font-size:40px;
+}
+.menu-boton{
+  cursor:pointer;
+  width:200px;
+  height:200px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border:3px double #000;
+  border-radius:50%;
+  background:#fff;
+}
+.menu-icon{
+  position:relative;
+}
+.icon-menu1.open{
+  left:-100px;
+  transition:1s;
+}
+
+.icon-menu1.close{
+  left:30px;
+  transition:1.5s;
+}
+
+.icon-menu2.open{
+  left:-50px;
+  transition:1.5s;
+}
+
+.icon-menu2.close{
+  left:60px;
+  transition:1s;
+}
+
+.icon-menu3.open{
+  left:50px;
+  transition:1.5s;
+}
+
+.icon-menu3.close{
+  left:-60px;
+  transition:1s;
+}
+
+.icon-menu4.open{
+  left:100px;
+  transition:1s;
+}
+
+.icon-menu4.close{
+  left:-30px;
+  transition:1.5s;
+}
+.open{
+  opacity:1
+}
+.close{
+  opacity:0;
+}
