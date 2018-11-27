@@ -17,6 +17,9 @@
 .menu-icon{
   position:relative;
 }
+.menu-icon .icon{
+  width:50px;
+}
 .icon-menu1.open{
   left:-100px;
   transition:1s;
